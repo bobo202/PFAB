@@ -1,0 +1,25 @@
+#!
+import math
+first = "Bengt"
+last = "Andersson"
+age = 54
+print first, last, age
+
+#Hypotenuse
+sideA = 12.55
+sideB = 17.85
+
+sideC = math.sqrt((sideA * sideA) + (sideB * sideB))
+print sideC
+
+#math
+operand1 = 95
+operand2 = 64.5
+
+print operand1, " + ", operand2, " = ", operand1 + operand2
+print operand1, " - ", operand2, " = ", operand1 - operand2
+print operand1, " * ", operand2, " = ", operand1 * operand2
+print operand1, " / ", operand2, " = ", operand1 / operand2
+print operand1, " % ", operand2, " = ", operand1 % operand2
+
+#In my code only the line with the operand itself will have to be rewriten if it changes
